@@ -1,0 +1,18 @@
+CREATE SCHEMA `telefonbuchdb` ;
+
+CREATE TABLE `telefonbuchdb`.`contacts` (
+  `idcontacts` INT NOT NULL AUTO_INCREMENT,
+  `firstName` VARCHAR(45) NOT NULL,
+  `lastName` VARCHAR(45) NOT NULL,
+  `telephoneNumber` INT NOT NULL,
+  PRIMARY KEY (`idcontacts`));
+  
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Jonas', 'Schmidt ', '0641312312');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Leon', 'Schmidt ', '0440312435');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Luca', 'Meyer', '03483123124');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Noah', 'Hoffmann', '45453452333');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Noah', 'Liam', '54454533232');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Elias', 'Klein', '00413545445');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Lina', 'Richter', '01323234545');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Anna', 'Werner', '0123543433');
+INSERT INTO `telefonbuchdb`.`contacts` (`firstName`, `lastName`, `telephoneNumber`) VALUES ('Leonie', 'Schulze', '0213326534389');
